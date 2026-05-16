@@ -1,6 +1,8 @@
 import os
 from tavily import TavilyClient
+from dotenv import load_dotenv
 
+load_dotenv()
 
 clinet = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
