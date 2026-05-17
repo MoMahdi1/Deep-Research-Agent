@@ -1,7 +1,7 @@
 from app.agents.retriever_agent import retriever_agent
 
 
-query = "آخر أخبار الذكاء الاصطناعي في 2026"
+query = "ما الفرق بين البطلان المطلق والبطلان النسبي؟"
 
 result = retriever_agent(query)
 
